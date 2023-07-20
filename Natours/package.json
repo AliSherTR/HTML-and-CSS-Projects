@@ -1,0 +1,14 @@
+{
+  "name": "1_natoursproject",
+  "version": "1.0.0",
+  "description": "Description for natours project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass saas/main.scss css/style.css -w"
+  },
+  "author": "Ali Sher Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
