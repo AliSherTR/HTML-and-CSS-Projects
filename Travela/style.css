@@ -1,0 +1,1103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+    height: 8vh;
+}
+ul{
+    display: inline-flex;
+    list-style: none;
+}
+li{
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    font-weight: 501;
+}
+nav .nav-list ul li a:hover{
+    color: #56bd97;
+}
+ul .active a{
+    color: #56bd97;
+}
+.sub-list1{
+    display: none;
+    
+}
+.nav-list ul li :hover .sub-list1{
+    display: block;
+    position: absolute;
+    color: black;
+}
+.inner-menu1 ul li{
+    display: none;
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    width: 24%;
+    margin-left: 20%;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.nav-list{
+    width: 50%;
+    margin-left: 10%;
+    text-align: center;
+}
+.fa-solid{
+    color: #56bd97;
+}
+.container-1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/slide1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.container-1 h2{
+    text-align: center;
+    color: #f9e351;
+    padding-top: 9%;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Caveat', cursive;
+    
+}
+.container-1 h1{
+    text-align: center;
+    color: #fff;
+    font-size: 75px;
+    font-weight: 800;
+    font-family: Rajdhani;
+    text-transform: uppercase;
+}
+.container-1 .cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container-1 .cards div{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.container-1 .cards div label{
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+}
+.container-1 .cards div a{
+    padding: 22px 0px;
+    text-decoration: none;
+    color: #343a40;
+    text-align: center;
+    background-color: #fff;
+    width: 99%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.container-1 .cards div .last-child{
+    background-color: #17a2b8;
+}
+.container-1 .cards div .last-child:hover{
+    background-color: #20c997;
+    transition: all 0.6s ease-in-out;
+}
+.container-1 a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 150px;
+}
+.container-1 a:hover{
+    color: #32aad6;
+    transition: all 0.9s ease-in-out;
+}
+.container-2 {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 0px;
+}
+.container-2 h2{
+    font-family: 'Caveat', cursive;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #32aad6;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.plane{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+}
+.plane .container2-heading{
+    width: 70%;
+    margin-left: 310px;
+}
+.plane .container2-heading h1{
+    font-size: 40px;
+    font-family: Rajdhani;
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+    color: #151d2a;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.plane .plane-image{
+    width: 30%;
+}
+.container-3{
+    width: 100%;
+    display: block;
+}
+.container-3 .cards{
+    display: flex;
+    width: 100%;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.cards .card-1{
+    position: relative;
+    width: 23%;
+    height: 50vh;
+    margin-right: 10px;
+    background-image: url(images/flex1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.cards .card-2{
+    position: relative;
+    width: 23%;
+    height: 50vh;
+    margin-right: 10px;
+    background-image: url(images/flex2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.cards .card-3{
+    position: relative;
+    width: 49%;
+    height: 50vh;
+    margin-right: 10px;
+    background-image: url(images/flex3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.cards .card-4{
+    position: relative;
+    width: 23%;
+    height: 50vh;
+    margin-right: 10px;
+    margin-top: 8px;
+    background-image: url(images/flex4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.cards .card-5{
+    position: relative;
+    width: 49%;
+    height: 50vh;
+    margin-right: 10px;
+    background-image: url(images/flex5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 8px;
+}
+.cards .card-6{
+    position: relative;
+    width: 23%;
+    height: 50vh;
+    margin-right: 10px;
+    background-image: url(images/flex6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 8px;
+
+}
+.cards span{
+    display: block;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 30px;
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cards p{
+    display: none;
+}
+.cards .card-1:hover p{
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.9s all ease-in-out;
+}
+.cards .card-2:hover p{
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 2s all ease-in-out;
+}
+.cards .card-3:hover p{
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.9s all ease-in-out;
+}
+.cards .card-4:hover p{
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.9s all ease-in-out;
+}
+.cards .card-5:hover p{
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.9s all ease-in-out;
+}
+.cards .card-6:hover p{
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.9s all ease-in-out;
+}
+.container-3 .destinations{
+    width: 100%;
+    text-align: center;
+}
+.container-3 .destinations a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 0.3px solid #ddd;
+    color: rgb(56, 54, 54);
+    font-weight: 500;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+}
+.container-3 .destinations a:hover{
+    border-color: #56bd97;
+    color: #32aad6;;
+}
+.container-4{
+    width: 100%;
+    height: 174vh;
+    background-image: url(images/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: 50% 0;
+    padding-top: 70px;
+}
+.container-4 h2 {
+    font-family: 'Caveat', cursive;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #32aad6;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+  }
+.container-4 p{
+    text-align: center;
+    font-size: 40px;
+    font-family: Rajdhani;
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+    color: #151d2a;
+    font-weight: 800;
+    line-height: 1.5;
+}
+.travelcards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+.travelcards .travel-card-1{
+    height: 50vh;
+    width: 20%;
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 20px;
+    margin: 0px 20px;  
+}
+.travelcards .travel-card-2{
+    height: 50vh;
+    width: 20%;
+    background-image: url(images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 20px;
+    margin: 0px 20px;
+}
+.travelcards .travel-card-3{
+    height: 50vh;
+    width: 20%;
+    background-image: url(images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 20px;
+    margin: 0px 20px;
+}
+.travelcards .travel-card-4{
+    height: 50vh;
+    width: 20%;
+    background-image: url(images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 20px;
+    margin: 0px 20px;
+}
+
+.travel-info-1{
+    height: 65vh;
+    width: 20%;
+    padding: 0px 20px;
+    margin: 0px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;  
+}
+.travel-info-1:hover{
+    box-shadow: 1px 12px 33px 0 rgba(0, 0, 0, 0.18);
+}
+.travel-info-2{
+    height: 65vh;
+    width: 20%;
+    padding: 0px 20px;
+    margin: 0px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.travel-info-2:hover{
+    box-shadow: 1px 12px 33px 0 rgba(0, 0, 0, 0.18);
+}
+.travel-info-3{
+    height: 65vh;
+    width: 20%;
+    padding: 0px 20px;
+    margin: 0px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.travel-info-3:hover{
+    box-shadow: 1px 12px 33px 0 rgba(0, 0, 0, 0.18);
+}
+.travel-info-4{
+    height: 65vh;
+    width: 20%;
+    padding: 0px 20px;
+    margin: 0px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.travel-info-4:hover{
+    box-shadow: 1px 12px 33px 0 rgba(0, 0, 0, 0.18);
+}
+.travelcards p{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #6c717a;
+}
+.travelcards span{
+    display: inline;
+    position: relative;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 0px;
+    font-weight: 600;
+    font-family: 'Rajdhani', sans-serif;
+    color: #151d2a;
+}
+.travelcards i{
+    display:inline-block;
+    letter-spacing: 0px;
+    color: #FD9D14;
+    margin-right: -5px;
+}
+.travelcards h5{
+    display: inline-block;
+    margin-left: 45px;
+    font-size: 14px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.travelcards hr{
+    width: 100%;
+    margin-bottom: 25px;
+    border: 0;
+    background: #ccc;
+    height: 1px;
+}
+.travelcards h3{
+    display: inline-block;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.travelcards h1{
+    display: inline-block;
+    margin-left: 80px;
+    font-size: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #56bd97;
+}
+.travelcards .link{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.travelcards .link a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 50px;
+    border: 0.7px solid #6c717a;
+    color: #6c717a;
+    font-family: 'Rajdhani', sans-serif;
+}
+.travelcards .link a:hover{
+    color: #fff;
+    background-color: #32aad6;
+    border: 0.9px solid #32aad6;
+}
+.container-5{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+.container-5 .row1{
+    flex-basis: 49%;
+    height: 90vh;
+    background-image: url(images/man.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-left: 20px;
+}
+.container-5 .row1 img{
+    width: 57%;
+    margin-top: 20px;
+}
+.container-5 .row2{
+    flex-basis: 49%;
+    height: 90vh;
+    background-image: url(images/island.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.row2 h2{
+    font-family: 'Caveat', cursive;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #32aad6;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.row2 h1{
+    font-size: 40px;
+    font-family: Rajdhani;
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+    color: #151d2a;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-left: 40px;
+}
+.row2 p{
+    display: inline-block;
+    margin-left: 40px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.row2 .para-2{
+    color: #56bd97;
+}
+.row2 .spans{
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row2 .spans span{
+    margin-right: 150px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: grey;
+}
+.row2 hr{
+    width: 100%;
+    margin-bottom: 25px;
+    border: 0;
+    background: #ccc;
+    height: 1px;
+}
+.row2 .about-text{
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Rajdhani', sans-serif;
+    color: grey;
+}
+.row2 .row2-links{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.row2 .row2-links a{
+    margin-right: 60px;
+    padding: 10px 40px;
+    text-decoration: none;
+    border: 1px solid grey;
+    font-family: 'Rajdhani', sans-serif;
+    color: grey;
+}
+.row2 .row2-links a:hover{
+    border-color: #56bd97;
+    color: #32aad6;
+}
+.container-6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+    height: 80vh;
+    padding: 20px 40px;
+    background-image: url(images/bg8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container-6 .div{
+    display: inline-block;
+    flex-basis: 30%;
+    height: 75vh;
+    text-align: center;
+    margin-right: 10px;
+}
+.container-6 .div i{
+    margin-top: 40px;
+    text-align: left;
+    font-size: 30px;
+    padding: 20px 20px;
+    border: 5px solid grey;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 #ffffff;
+    color: #00aaf1;
+    border-color: #f7f7f7;
+}
+.container-6 .div i:hover{
+    color: #28a745;
+    background-color: rgba(180, 173, 173 , 0.2);
+    transition: color 2s all ease-in-out;
+}
+.container-6 .div h1{
+    text-align: left;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+}
+.container-6 .div h1:hover{
+    color: #00aaf1;
+}
+.container-6 .div p{
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Rajdhani', sans-serif;
+    color: #6c717a;
+    line-height: 28px;
+}
+.container-6 .div a{
+    text-align: left;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #00aaf1;
+}
+.container-6 .div a:hover{
+    color: black;
+}
+.container-7{
+    display: inline-block;
+    width: 100%;
+    height: 70vh;
+    background-image: url(images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container-7 .Heading-1{
+    display: inline;
+    width: 100%;
+    text-align: center;
+}
+.container-7 .Heading-1 h1{
+    margin-top: 10%;
+    font-size: 60px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 800;
+}
+.container-7 .para-1{
+    display: inline;
+    width: 100%;
+    text-align: center;
+}
+.container-7 .para-1 p{
+    font-size: 60px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+}
+.container-8{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url(images/bg10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+.container-8 .about{
+    display: block;
+    text-align: center;
+    margin-top: 7%;
+}
+.container-8 .about h2{
+    font-family: 'Caveat', cursive;
+    color: #32aad6;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.container-8 .about h1{
+    font-size: 40px;
+    font-family: Rajdhani;
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+    color: #151d2a;
+    font-weight: 800;
+    line-height: 1.5;
+}
+.container-8-cards{
+    display: flex;
+    width: 100%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.container-8-cards .card{
+    height: 50vh;
+    width: 27%;
+    background-color: white;
+    margin-right: 10px;
+}
+.container-8 .card div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.container-8 .card div img{
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.container-8 .card div span{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    color: #343a40;
+    font-weight: 600;
+    line-height: 1px;
+}
+.container-8 .card  .cards-text p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    color: #343a40;
+    font-weight: 500;
+}
+.container-8 .card hr{
+    width: 60%;
+    margin: 10px 69px;
+    height: 1px;
+    border: 0;
+    margin-bottom: 25px;
+    background: #ccc;
+}
+.container-8-cards .card .cards-text{
+    padding: 20px 69px;
+}
+.container-8-cards .card:hover{
+    box-shadow: 1px 12px 33px 0 rgba(0, 0, 0, 0.18);
+    transition: box-shadow 0.6s ease-in-out;
+}
+.container-9{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.container-9 .about{
+    display: block;
+    text-align: center;
+    margin-top: 7%;
+}
+.container-9 .about h2{
+    font-family: 'Caveat', cursive;
+    color: #32aad6;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.container-9 .about h1{
+    font-size: 40px;
+    font-family: Rajdhani;
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+    color: #151d2a;
+    font-weight: 800;
+    line-height: 1.5;
+}
+.container-9-cards{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.container-9-cards .card{
+    width: 31%;
+    height: 80vh;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+}
+.card .image{
+    display: block;
+    width: 100%;
+}
+.card .image img{
+    width: 100%;
+}
+.card .text{
+    padding: 20px 30px;
+    text-align: left;
+    font-family: 'Rajdhani', sans-serif;
+}
+.card .text a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    color: #151d2a;
+}
+.card .text a:hover{
+    color: #56bd97;
+    transition: color 0.2s  ease-in;
+}
+.card .text p{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 1px;
+    padding: 20px 0px;
+}
+.container-9-cards hr{
+    width: 70%;
+    margin: 10px 69px;
+    height: 1px;
+    border: 0;
+    margin-bottom: 25px;
+    background: #ccc;
+}
+.card .blog{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.card .blog span{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+    color: grey;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 1px;
+    padding: 20px 0px;
+}
+.card:hover{
+    box-shadow: 1px 12px 33px 0 rgba(0, 0, 0, 0.18);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.container-10{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    box-sizing: border-box;
+    background-image: url(images/plane1.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 60px;
+}
+.container-10 .image10{
+    box-sizing: border-box;
+    width: 15%;
+    margin-left: 10px;
+}
+.container-10 .image10 img{
+    width: 80%;
+    text-align: center;
+}
+.bottom{
+    width: 100%;
+    height: 70vh;
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url(images/bg6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+.bottom .heading1{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.bottom .heading1 h1{
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-top: 8%;
+    color: #151d2a;
+}
+.bottom .heading2{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.bottom .heading2 h2{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-top: 2px;
+    color: #151d2a;
+}
+.bottom .inputform{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.bottom .inputform input{
+    width: 30%;
+    padding: 14px 35px 13px 35px;
+    border: 1px;
+    border-radius: 3px;
+    padding-left:20px ;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    background-color: rgba(239, 240, 244, 0.94);
+}
+.bottom .inputform a{
+    text-decoration: none;
+    background-color: #00aaf1;
+    color: #fff;
+    padding: 14px 35px 13px 35px;
+    font-size: 14px;
+    font-family: 'Rajdhani', sans-serif;
+    border: 1px;
+    border-radius: 3px;
+}
+.bottom .inputform a:hover{
+    background-color: #56bd97;
+    color: #fff;
+}
+.bottom .textbottom{
+    width: 35%;
+    text-align: center;
+    margin-left: 32%;
+    padding: 30px 0px;
+}
+.bottom .textbottom p{
+    font-size: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    color: #151d2a;
+}
+footer{
+    width: 100%;
+    display: flex;
+    padding:10px 30px ;
+    box-sizing: border-box;
+    background-image: url(images/fbg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+footer .list{
+    display: block;
+    width: 19%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+    line-height: 33px;
+}
+footer .list span{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    color: #ccc;
+    font-size: 17px;
+    margin-top: 10px;
+}
+footer .list p{
+    display: block;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: #ccc;
+    padding-top: 50px;
+}
+footer .list img{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+footer .list ul{
+    display: block;
+    list-style: none;
+    padding-top: 50px;
+}
+footer .list li{
+    padding-top: 8px;
+}
+footer .list a{
+    font-weight: 600;
+    color: #ccc;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+}
+footer .list a:hover{
+    color: #56bd97;
+}
+footer .list i{
+    display: inline;
+    margin-right: 10px;
+}
